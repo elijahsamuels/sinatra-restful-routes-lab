@@ -1,0 +1,8 @@
+    <%# displays a list of recipes
+    contains links to each recipe's show page %>
+
+<h1>Recipes</h1>>
+
+<% Recipe.all.each do |r| %>
+    <a href="/recipes/<%= r.id %>">Name: <%= r.name %></a>
+<% end %>

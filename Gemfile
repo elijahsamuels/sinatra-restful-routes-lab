@@ -11,7 +11,7 @@ gem 'require_all'
 gem 'shotgun'
 gem 'json'
 gem 'pry'
-gem 'database_cleaner'
+gem "database_cleaner-active_record"
 
 group :test do
   gem 'rspec'
